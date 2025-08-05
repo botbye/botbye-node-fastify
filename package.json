@@ -1,0 +1,16 @@
+{
+  "name": "botbye-node-fastify",
+  "main": "index.js",
+  "version": "0.1.0",
+  "description": "BotBye! integration for Fastify",
+  "private": false,
+  "devDependencies": {
+    "fastify": "^5.0.0"
+  },
+  "peerDependencies": {
+    "fastify": "^5.0.0"
+  },
+  "dependencies": {
+    "botbye-node-core": "^1.0.5"
+  }
+}
