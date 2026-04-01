@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.init = init;
 exports.validateRequest = validateRequest;
 var botbye_node_core_1 = require("botbye-node-core");
-(0, botbye_node_core_1.initPackageInfo)({ name: "NodeJS-Fastify", version: "0.1.1" });
+(0, botbye_node_core_1.initPackageInfo)({ name: "FASTIFY", version: "0.1.3" });
 function init(options) {
     (0, botbye_node_core_1.init)(options);
     return validateRequest;
