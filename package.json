@@ -1,16 +1,34 @@
 {
-  "name": "botbye-node-fastify",
-  "main": "index.js",
-  "version": "0.1.3",
-  "description": "BotBye! integration for Fastify",
-  "private": false,
-  "devDependencies": {
-    "fastify": "^5.0.0"
+  "name": "@botbye/fastify",
+  "version": "2.0.0",
+  "description": "BotBye! integration for Node.js Fastify",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
   },
-  "peerDependencies": {
-    "fastify": "^5.0.0"
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://botbye.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/botbye/botbye-nest-fastify"
   },
   "dependencies": {
-    "botbye-node-core": "^1.0.8"
+    "@botbye/node-core": "^2.0.0"
+  },
+  "peerDependencies": {
+    "fastify": ">=4"
   }
 }
