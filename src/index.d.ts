@@ -29,9 +29,6 @@ declare const init: (options: import("@botbye/node-core").TInitOptions) => void,
         email?: import("@botbye/node-core").TNullable<string>;
         phone?: import("@botbye/node-core").TNullable<string>;
     };
-    config?: {
-        bypassBotValidation?: import("@botbye/node-core").TNullable<boolean>;
-    };
     customFields?: {
         [x: string]: string;
     };
@@ -57,9 +54,6 @@ declare const init: (options: import("@botbye/node-core").TInitOptions) => void,
         email?: import("@botbye/node-core").TNullable<string>;
         phone?: import("@botbye/node-core").TNullable<string>;
     };
-    config?: {
-        bypassBotValidation?: import("@botbye/node-core").TNullable<boolean>;
-    };
     customFields?: {
         [x: string]: string;
     };
@@ -75,9 +69,6 @@ declare const init: (options: import("@botbye/node-core").TInitOptions) => void,
     } | {
         request: FastifyRequest<import("fastify").RouteGenericInterface, import("fastify").RawServerDefault, import("http").IncomingMessage, import("fastify").FastifySchema, import("fastify").FastifyTypeProviderDefault, unknown, import("fastify").FastifyBaseLogger, import("fastify/types/type-provider").ResolveFastifyRequestType<import("fastify").FastifyTypeProviderDefault, import("fastify").FastifySchema, import("fastify").RouteGenericInterface>>;
         token?: import("@botbye/node-core").TNullable<string>;
-    };
-    config?: {
-        bypassBotValidation?: import("@botbye/node-core").TNullable<boolean>;
     };
     customFields?: {
         [x: string]: string;
